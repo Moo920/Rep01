@@ -1,5 +1,4 @@
-peline {
-    agent { docker 'maven:3.3.3' }
+pipeline {
     stages {
         stage('stage 1') {
             steps {
